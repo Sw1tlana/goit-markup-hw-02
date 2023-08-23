@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Heder -->
 
     <header>
         <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
-                <li><a href="./index.html">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contacts</a></li>
+            <a class="logo" href="./index.html"><span class="logo-color">Web</span>Studio</a>
+            <ul class="header-list">
+                <li class="header-list-item"><a class="header-list-link" href="./index.html">Studio</a></li>
+                <li class="header-list-item"><a class="header-list-link" href="#">Portfolio</a></li>
+                <li class="header-list-item"><a class="header-list-link" href="#">Contacts</a></li>
             </ul>
         </nav>
         <address>
-        <ul>
+        <ul class="header-list address-list">
             <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
@@ -27,11 +35,13 @@
 
     <!-- Main -->
     <main>
+
         <section>
             <h1>Effective Solutions for Your Business</h1>
             <button type="button">Order Service</button>
         </section>
 
+        <!-- Section hidden Our advantages -->
         <section>
             <h2 hidden>Our advantages</h2>
             <ul>
@@ -62,6 +72,7 @@
                 </li>
             </ul>
         </section>
+        <!-- Section Our Team -->
 
         <section>
             <h2>Our Team</h2>
@@ -88,6 +99,44 @@
                 </li>
             </ul>
         </section>
+
+        <!-- Section Our Portfolio -->
+        <section>
+            <h2>Our Portfolio</h2>
+          <ul>
+            <li>
+                <img src="./images/BankingApp.jpg" alt="Banking App" width="360" height="300">
+                <h3>Banking App</h3>
+                <p>App</p>
+            </li>
+            <li>
+                <img src="./images/CashlessPayment.jpg" alt="Cashless Payment" width="360" height="300">
+                <h3>Cashless Payment</h3>
+                <p>Marketing</p>
+            </li>
+            <li>
+                <img src="./images/MeditationApp.jpg" alt="Meditation App" width="360" height="300">
+                <h3>Meditation App</h3>
+                <p>App</p>
+            </li>
+            <li>
+                <img src="./images/TaxiService.jpg" alt="Taxi Service" width="360" height="300">
+                <h3>Taxi Service</h3>
+                <p>Marketing</p>
+            </li>
+            <li>
+                <img src="./images/ScreenIllustrations.jpg" alt="Screen Illustrations" width="360" height="300">
+                <h3>Screen Illustrations</h3>
+                <p>Design</p>
+            </li>
+            <li>
+                <img src="./images/OnlineCourses.jpg" alt="Online Courses" width="360" height="300">
+                <h3>Online Courses</h3>
+                <p>Marketing</p>
+            </li>
+          </ul>
+        </section>
+
     </main>
 
     <!-- Footer -->
