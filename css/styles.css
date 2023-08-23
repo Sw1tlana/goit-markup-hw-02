@@ -20,7 +20,10 @@ ul {
 a {
     text-decoration: none;
 }
+
+
 /* ---------Header--------- */
+
 
 .logo {
     font-family: Raleway;
@@ -58,9 +61,13 @@ a {
     color: var(--color-iris);
 } 
 
+
 /* -----------Main--------- */
-/* Main-section */
-.main-section {
+
+
+
+/* Hero-section */
+.hero-section {
     background-color: var(--color-navyblue);
 }
 
@@ -94,7 +101,7 @@ a {
 }
 
 
-/* Section hidden Our advantages  */
+/* Section hidden Our advantages */
 .section-advantages {
     background-color: var(--color-light);
 }
@@ -127,6 +134,10 @@ a {
     background-color: var(--color-cloud);
 }
 
+/* .main-list-team {
+
+} */
+
 .main-item-team {
     border-radius: 0px 0px 4px 4px;
     background-color: var(--color-light);
@@ -148,7 +159,31 @@ a {
     background-color: var(--color-light);
 }
 
+/* 
+.main-list-portfolio {
+
+} */
+
 .main-item-portfolio {
     border: 1px solid var(--color-cornflower);
     background-color:  var(--color-light);
+}
+
+
+/* ---------Footer------------- */
+
+.footer {
+    background-color: var(--color-navyblue);
+}
+
+.footer-logo {
+    color: var(--color-cloud);
+}
+
+.text-footer {
+    color: var(--color-cloud);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px; 
 }
