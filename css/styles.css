@@ -2,6 +2,7 @@ body {
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Roboto', sans-serif;
     color: var(--color-slate);
+    font-size: 16px;
 }
 
 :root {
@@ -11,6 +12,7 @@ body {
     --color-slate: #434455;
     --color-cloud: #F4F4FD;
     --color-cornflower: #E7E9FC;
+    --color-ocean: #404BBF;
 }
 
 ul {
@@ -40,7 +42,6 @@ a {
 }
 
 .header-list {
-    font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
 }
@@ -53,14 +54,17 @@ a {
 
 .header-list-link {
     color: var(--slate, #434455);
-    font-weight: 400;
 }
 
 .header-list-link:hover,
 .header-list-link:focus {
-    color: var(--color-iris);
+    color: var(--color-ocean);
+    text-decoration: underline;
 } 
 
+.link-info:hover {
+   text-decoration: none;
+}
 
 /* -----------Main--------- */
 
@@ -84,20 +88,20 @@ a {
 
 .button-service {
     border-radius: 4px;
-    background-color: var(--color-iris);
     cursor: pointer;
     color: var(--color-light);
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.64px;
+    border: none;
+    background-color: var(--iris, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button-service:hover,
 .button-service:focus {
-    background-color: var(--color-cloud);
+    background-color: var(--ocean, #404BBF);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: var(--color-slate);
 }
 
 
@@ -172,17 +176,16 @@ a {
 
 /* ---------Footer------------- */
 
-.footer {
+.final-info {
     background-color: var(--color-navyblue);
 }
 
-.footer-logo {
+.final-logo {
     color: var(--color-cloud);
 }
 
-.text-footer {
+.text-final-info {
     color: var(--color-cloud);
-    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px; 
