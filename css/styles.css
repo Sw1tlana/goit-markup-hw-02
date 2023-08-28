@@ -1,11 +1,12 @@
 body {
     /* font-family: 'Raleway', sans-serif; */
     font-family: 'Roboto', sans-serif;
-    color: var(--color-slate);
+    color: #434455;
     font-size: 16px;
+    background-color: #ffffff;
 }
 
-:root {
+/* :root {
     --color-light: #ffffff;
     --color-iris: #4D5AE5;
     --color-navyblue: #2E2F42;
@@ -13,7 +14,7 @@ body {
     --color-cloud: #F4F4FD;
     --color-cornflower: #E7E9FC;
     --color-ocean: #404BBF;
-}
+} */
 
 ul {
     list-style: none;
@@ -28,17 +29,17 @@ a {
 
 
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: var(--color-navyblue);
+    color: #2E2F42;
 }
 
 .logo-color {
-   color: var(--color-iris);
+   color: #4D5AE5;
 }
 
 .header-list {
@@ -47,20 +48,24 @@ a {
 }
 
 .header-list-item {
-    color: var(--navyblue, #2E2F42);
+    color: #2E2F42;
     font-weight: 500;
    
 }
 
 .header-list-link {
-    color: var(--slate, #434455);
+    color: #434455;
 }
 
 .header-list-link:hover,
 .header-list-link:focus {
-    color: var(--color-ocean);
+    color: #404BBF;
     text-decoration: underline;
 } 
+
+.header-info {
+    font-style: normal;
+}
 
 .link-info:hover {
    text-decoration: none;
@@ -72,7 +77,7 @@ a {
 
 /* Hero-section */
 .hero-section {
-    background-color: var(--color-navyblue);
+    background-color: #2E2F42;
 }
 
 .tittle-main {
@@ -83,32 +88,28 @@ a {
     font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 1.12px;
-    color: var(--color-light);
+    color:#ffffff;
 }
 
 .button-service {
-    border-radius: 4px;
     cursor: pointer;
-    color: var(--color-light);
+    color: #ffffff;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.64px;
-    border: none;
-    background-color: var(--iris, #4D5AE5);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #4D5AE5;
 }
 
 .button-service:hover,
 .button-service:focus {
-    background-color: var(--ocean, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #404BBF;
 }
 
 
 /* Section hidden Our advantages */
-.section-advantages {
-    background-color: var(--color-light);
-}
+/* .section-advantages {
+   
+} */
 
 /* .main-list-advantages {
 
@@ -119,7 +120,7 @@ a {
 } */
 
 .subtittle-main-section {
-    color: var(--color-navyblue);
+    color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -127,7 +128,7 @@ a {
 }
 
 .text-main-section {
-    color: var(--color-slate);
+    color: #434455;
     font-family: Roboto;
     line-height: 1.5;
     letter-spacing: 0.32px;
@@ -135,7 +136,7 @@ a {
 
 /* Section-team */
 .section-team {
-    background-color: var(--color-cloud);
+    background-color: #F4F4FD;
 }
 
 /* .main-list-team {
@@ -143,9 +144,7 @@ a {
 } */
 
 .main-item-team {
-    border-radius: 0px 0px 4px 4px;
-    background-color: var(--color-light);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    background-color: #ffffff;
 }
 
 .tittle-main-section {
@@ -155,37 +154,35 @@ a {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
-    color: var(--color-navyblue);
+    color: #2E2F42;
 }
 
 /* Section Our Portfolio */
-.section-portfolio {
-    background-color: var(--color-light);
-}
+/* .section-portfolio {
+   
+} */
 
 /* 
 .main-list-portfolio {
 
 } */
 
-.main-item-portfolio {
-    border: 1px solid var(--color-cornflower);
-    background-color:  var(--color-light);
-}
+/* .main-item-portfolio {
+  } */
 
 
 /* ---------Footer------------- */
 
 .final-info {
-    background-color: var(--color-navyblue);
+    background-color: #2E2F42;
 }
 
 .final-logo {
-    color: var(--color-cloud);
+    color: #F4F4FD;
 }
 
 .text-final-info {
-    color: var(--color-cloud);
+    color: #F4F4FD;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px; 
