@@ -35,11 +35,11 @@ a {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4D5AE5;
 }
 
 .logo-color {
-   color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .header-list {
@@ -47,14 +47,12 @@ a {
     letter-spacing: 0.32px;
 }
 
-.header-list-item {
-    color: #2E2F42;
-    font-weight: 500;
-   
-}
+/* .header-list-item {
+   } */
 
 .header-list-link {
-    color: #434455;
+    color: #2E2F42;
+    font-weight: 500;
 }
 
 .header-list-link:hover,
