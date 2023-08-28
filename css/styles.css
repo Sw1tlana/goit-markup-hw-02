@@ -65,6 +65,10 @@ a {
     font-style: normal;
 }
 
+.link-info {
+    color: #434455;
+}
+
 .link-info:hover {
    text-decoration: none;
 }
