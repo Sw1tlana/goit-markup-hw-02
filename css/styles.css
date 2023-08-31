@@ -25,8 +25,44 @@ a {
 }
 
 
+/* ----------------General styles------------ */
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* ---------Header--------- */
 
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header-nav-menu {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     font-family: Raleway, sans-serif;
@@ -43,12 +79,21 @@ a {
 }
 
 .header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     line-height: 1.5; 
     letter-spacing: 0.32px;
+    margin-left: auto;
 }
 
-/* .header-list-item {
-   } */
+.header-list-item {
+    margin-right: 40px;
+}
+
+.item-contacts {
+    margin-right: 0;
+}
 
 .header-list-link {
     color: var(--color-navyblue);
@@ -62,12 +107,17 @@ a {
 } 
 
 .header-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-style: normal;
+    margin-left: auto;
 }
 
 .link-info {
     color: var(--color-slate);
     font-weight: 400px;
+    margin-right: 0;
 }
 
 .link-info:hover {
@@ -81,6 +131,14 @@ a {
 /* Hero-section */
 .hero-section {
     background-color: var(--color-navyblue);
+    width: 100%;
+}
+
+.container-hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .tittle-main {
@@ -91,36 +149,53 @@ a {
     font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 1.12px;
-    color: var(--color-light) ;
+    color: var(--color-light);
+    margin-top: 188px;
+    margin-bottom: 0;
+    width: 40%;
 }
 
 .button-service {
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
     cursor: pointer;
     color: var(--color-light);
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.64px;
     background-color: var(--color-iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 48px;
+    margin-bottom: 188px;
 }
 
 .button-service:hover,
 .button-service:focus {
     background-color: var(--color-ocean);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 
 /* Section hidden Our advantages */
-/* .section-advantages {
-   
-} */
 
-/* .main-list-advantages {
+.advantages-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-bottom: 0;
+}
 
+.main-list-advantages {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 0;
+    padding-left: 0;
 }
 
 .main-item-advantages {
-
-} */
+    width: calc((100% - 72px) / 4);
+}
 
 .subtittle-main-section {
     color: var(--color-navyblue);
@@ -128,13 +203,17 @@ a {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin: 0;
 }
 
 .text-main-section {
     color: var(--color-slate);
     font-family: Roboto;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.32px; 
+    margin: 0;
+    min-width: 264px;
+    flex-grow: 0;
 }
 
 /* Section-team */
@@ -190,3 +269,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.32px; 
 }
+
+ 

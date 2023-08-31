@@ -22,52 +22,56 @@
   <body>
     <!-- Heder -->
 
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-color">Studio</span></a
-        >
-        <ul class="header-list">
-          <li class="header-list-item">
-            <a class="header-list-link" href="./index.html">Studio</a>
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-link" href="">Portfolio</a>
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="header-info">
-        <ul class="header-list">
-          <li class="header-list-item">
-            <a
-              class="header-list-link link-info"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-link link-info" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="wrapper">
+      <div class="container container-header">
+        <nav class="header-nav-menu">
+          <a class="logo" href="./index.html"
+            >Web<span class="logo-color">Studio</span></a
+          >
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a class="header-list-link" href="./index.html">Studio</a>
+            </li>
+            <li class="header-list-item">
+              <a class="header-list-link" href="">Portfolio</a>
+            </li>
+            <li class="header-list-item item-contacts">
+              <a class="header-list-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="header-info">
+          <ul class="header-list">
+            <li class="header-list-item">
+              <a
+                class="header-list-link link-info"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-list-item link-info">
+              <a class="header-list-link link-info" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <!-- Main -->
-    <main>
+    <main class="wrapper">
       <!-- Hero section -->
       <section class="hero-section">
-        <h1 class="tittle-main">Effective Solutions for Your Business</h1>
-        <button class="button-service" type="button">Order Service</button>
+        <div class="container-hero-section">
+          <h1 class="tittle-main">Effective Solutions for Your Business</h1>
+          <button class="button-service" type="button">Order Service</button>
+        </div>
       </section>
 
       <!-- Section hidden Our advantages -->
-      <section class="section-advantages">
-        <h2 hidden>Our advantages</h2>
+      <section class="advantages-section container">
+        <h2 class="visually-hidden">Our advantages</h2>
         <ul class="main-list-advantages">
           <li class="main-item-advantages">
             <h3 class="subtittle-main-section">Strategy</h3>
