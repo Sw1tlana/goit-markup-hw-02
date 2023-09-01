@@ -57,6 +57,11 @@ a {
     overflow: hidden;
 }
 
+.main-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 /* ---------Header--------- */
 
 .container-header {
@@ -186,21 +191,17 @@ a {
 
 /* Section hidden Our advantages */
 
-.advantages-section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 .main-list-advantages {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
     margin: 0;
     padding-left: 0; 
 }
 
 .main-item-advantages {
-    width: calc((100% - 72px) / 4); 
-    row-gap: 24px;
+    width: calc((width 100% - 72px) /4 );
 }
 
 .subtittle-main-section {
@@ -217,8 +218,7 @@ a {
     font-family: Roboto;
     line-height: 1.5;
     letter-spacing: 0.32px; 
-    min-width: 264px;
-    margin: 0;
+    margin-bottom: 0;
 }
 
 /* Section-team */
@@ -226,12 +226,22 @@ a {
     background-color: var(--color-cloud);
 }
 
-/* .main-list-team {
-
-} */
+.main-list-team {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding-left: 0;
+    margin-top: 72px;
+}
 
 .main-item-team {
     background-color: var(--color-light);
+}
+
+.images-team {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .tittle-main-section {
@@ -242,20 +252,53 @@ a {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: var(--color-navyblue);
+    margin: 0;
+}
+
+.subtittle-team {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.text-team {
+    text-align: center;
+    margin-bottom: 32px;
 }
 
 /* Section Our Portfolio */
-/* .section-portfolio {
-   
-} */
 
-/* 
 .main-list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-top: 72px;
+}
 
-} */
+.images-portfolio {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
-/* .main-item-portfolio {
-  } */
+.main-item-portfolio {
+   flex-basis: 30%;
+}
+
+.subtittle-portfolio {
+   margin-top: 32px;
+}
+
+.text-portfolio {
+   margin-bottom: 32px;
+}
+
+.online-courses,
+.meditation {
+    margin-right: 0;
+}
 
 
 /* ---------Footer------------- */
